@@ -50,9 +50,9 @@ gulp.task('build-css', function() {
     .pipe(gulp.dest('dist/stylesheets/'));
 });
 
-electron.on("electronClosed", function(){
+electron.on("appClosed", function(){
   electron.stop(function(){
-    console.log("electron + gulp stopped successfully");
+    process.exit(0);
   });
 });
 

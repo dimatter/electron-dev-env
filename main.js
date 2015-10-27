@@ -19,7 +19,7 @@ app.on('window-all-closed', function() {
     app.quit();
 
     // NEEDED FOR LIVERELOAD
-    client.sendMessage("electronClosed");
+    client.sendMessage("appClosed");
   }
 });
 
@@ -44,5 +44,5 @@ app.on('ready', function() {
   });
 
   // NEEDED FOR LIVERELOAD
-  client.create(mainWindow);
+  client = client.create(mainWindow);
 });

@@ -10,7 +10,7 @@ uses:
 the app's content itself is made of:
 - `html` index file
 - `css` files
-- `react` components
+- `react` components (es6)
 
 ## Install
 _tested on ubuntu 14.04_

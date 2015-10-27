@@ -1,0 +1,22 @@
+{
+  "name": "electron-dev-env",
+  "version": "0.1.0",
+  "main": "main.js",
+  "license" : "MIT",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "browserify": "^11.2.0",
+    "electron-connect": "^0.3.3",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "classname": "0.0.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/rmi7/electron-dev-env"
+  }
+}

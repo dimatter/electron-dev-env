@@ -50,4 +50,10 @@ gulp.task('build-css', function() {
     .pipe(gulp.dest('dist/stylesheets/'));
 });
 
+server.on("electronClosed", function(){
+  server.stop(function(){
+    console.log("electron + gulp stopped successfully");
+  });
+});
+
 gulp.task('start', ['serve']);

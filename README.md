@@ -17,7 +17,11 @@ _tested on ubuntu 14.04_
 
 `npm install -g electron-prebuilt`
 
-`npm install electron-dev-env`
+`git clone https://github.com/rmi7/electron-dev-env.git`
+
+`cd electron-dev-env`
+
+`NODE_ENV=development npm install`
 
 ## Usage
 to start the livereload electron environment type: `gulp start`

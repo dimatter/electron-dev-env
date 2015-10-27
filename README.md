@@ -23,11 +23,13 @@ _tested on ubuntu 14.04_
 to start the livereload electron environment type: `gulp start`
 
 now you can edit:
+
 - react components in `src/js`
 - the index html file in `src/html`
 - the css files in `src/css`
 
 and gulp will:
+
 1. build the files into `dist/`
 2. **reload** the browser to show the updated content
 

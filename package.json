@@ -1,7 +1,7 @@
 {
   "name": "electron-dev-env",
-  "description" : "live reload electron dev enironment using gulp",
-  "version": "0.1.1",
+  "description": "live reload electron dev enironment using gulp",
+  "version": "0.1.2",
   "main": "main.js",
   "license": "MIT",
   "devDependencies": {

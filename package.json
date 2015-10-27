@@ -1,9 +1,9 @@
 {
   "name": "electron-dev-env",
   "description": "live reload electron dev enironment using gulp + browserify + react(es6)",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "main.js",
-  "keywords" : [
+  "keywords": [
     "electron",
     "gulp",
     "react",
